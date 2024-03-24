@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dir 'libs'
+    }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    //lombok
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+    // jpa를 사용하기 위해 필요. @Entity, @Repository 등.
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.6.6'
+    implementation 'org.springframework:spring-context:5.3.15'
+
+    //날짜 선택 UI
+    implementation 'com.github.LGoodDatePicker:LGoodDatePicker:11.2.1'
+
+    // MySQL 연동을 위해 필요.
+    implementation 'mysql:mysql-connector-java:8.0.27'
+
+    // 파일 업로드 사용을 위해 필요
+    implementation 'commons-io:commons-io:2.11.0'
+
+    // 비밀번호 암호화를 위해 필요
+    implementation 'org.mindrot:jbcrypt:0.4'
+
+    // FlatLaf, Java Swing UI 커스텀을 위해 필요.
+    implementation 'com.formdev:flatlaf:3.4'
+
+    // JavaMail, 이메일 전송을 위해 필요.
+    implementation 'javax.mail:mail:1.4.7'
+    implementation 'com.sun.mail:javax.mail:1.6.2'
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
