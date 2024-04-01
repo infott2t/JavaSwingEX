@@ -99,8 +99,7 @@ public class TestWordCheck {
 
     }
     public static void main(String[] args) {
-        //new TestWordCheck();
-        // run the program
+
         /*
         1. Check the input words. Key. "ADMIN", "SHOPPER", "USER".
         2. Check the input words. Table. Like way. "user_info", "user", "shop_info", "service1Name", "service2Name", "service3Name".
