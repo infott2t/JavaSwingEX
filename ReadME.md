@@ -12,7 +12,7 @@ Let's study~.
 
 I do make readme file. I'm not quite ready yet, so I'm just writing as I go. I hope it helps. Try developing it. After math.
 
-and Let's go there~. Jesus Christ, Church. Social resting place. Calling. How aoubt this. I like this writing.
+and Let's go there~. Jesus Christ, Church. Social resting place. Calling. How about this. I like this writing.
 
 Thank you, watching my writing. 
 
